@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner{
+    background-image: url(../images/banner3.png);
+    background-size: cover;
+   
+    padding: 220px;
+    text-align: right;
+    color: antiquewhite;
+}
+.banner p{
+    font-size: 12px;
+   
+}
+.banner .banner-con{
+    margin-top: 30px;
+}
+.banner-btn{
+    margin-top: 20px;
+    padding: 10px;
+    color: blue;
+    border: 0;
+    border-radius: 5px;
+}
+main{
+    background: #f1f1f1;
+    padding: 50px;
+}
+.failers-tale{
+    display: flex;
+    margin: 60px 200px;
+    gap: 150px;
+    
+}
+.failers-con h1{
+    font-weight: 900;
+}
+.failers-tale img{
+    width: 350px;
+}
+.failers-tale p{
+    font-size: 12px;
+    
+}
+.failers-con{
+    margin-top: 90px;
+}
+.failers-para{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.failers-list{
+    padding: 3px;
+}
+.failers-list i{
+    color: green;
+}
