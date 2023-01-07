@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
 .banner{
     background-image: url(../images/banner3.png);
     background-size: cover;
@@ -14,7 +13,6 @@
 }
 .banner p{
     font-size: 12px;
-   
 }
 .banner .banner-con{
     margin-top: 30px;
@@ -22,7 +20,7 @@
 .banner-btn{
     margin-top: 20px;
     padding: 10px;
-    color: blue;
+    color: rgb(9, 9, 41);
     border: 0;
     border-radius: 5px;
 }
@@ -30,11 +28,11 @@ main{
     background: #f1f1f1;
     padding: 50px;
 }
+/* failer-part--------------- */
 .failers-tale{
     display: flex;
     margin: 60px 200px;
-    gap: 150px;
-    
+    gap: 150px;   
 }
 .failers-con h1{
     font-weight: 900;
@@ -43,8 +41,7 @@ main{
     width: 350px;
 }
 .failers-tale p{
-    font-size: 12px;
-    
+    font-size: 12px;  
 }
 .failers-con{
     margin-top: 90px;
@@ -58,4 +55,103 @@ main{
 }
 .failers-list i{
     color: green;
+}
+/* my plans-------------- */
+.my-plans{
+    text-align: center;
+    margin: 50px 250px;
+}
+.plans-con-main{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+.plan-con h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* always keep---------------- */
+.always-keep{
+    background-image: url(../images/watch.png);
+    /* background: url(../images/gradient1.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    background: linear-gradient(45deg , red ,/*#green*/#0A85ED,blue);
+    margin: 70px 200px;
+    color: white;
+    border-radius: 10px;
+}
+.always-btn{
+    padding: 5px;
+    margin-top: 10px;
+    color: rgb(13, 20, 13); 
+}
+/* resume section-------------- */
+.resume{
+    margin: 50px 100px;
+    text-align: center;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474746;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* footer-------------- */
+.footer{ 
+    color: white;
+    background-color: black; 
+}
+.footer-con-main{
+    /* margin: 0 150px; */
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+}
+.footer-btn button{
+    width: 200px;
+   /* padding: 10px 2px; */
+   text-align: left;
+   margin-top: 20px;
+   padding: 10px; 
+}
+.footer-img{
+    margin-top: 30px;
+}
+.footer-img img{ 
+    margin: 5px;  
+}
+.footer-con-main p{
+    margin-top: 10px;
+}
+.footer-btn .btn-primary{
+    color: white;
+    background: #000;
+    border: 1px solid #f1f1f1;
+}
+.footer-btn .btn-secondary{
+    background: rgb(36, 36, 155);
+    color: white;
+    width: 100px;
+    border-radius: 5px;
 }
